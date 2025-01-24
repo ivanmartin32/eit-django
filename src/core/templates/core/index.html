@@ -10,7 +10,7 @@
     <div style="display: flexbox; max-width: 25%; text-align: center;">
         {% for numero in lista %}
             {% if numero <= 6 %}
-                <p style='color: red; background-color: black'>Desaprobado con: {{numero}}</p>
+                <p style='color: red; background-color: black; border-radius: 10px'>Desaprobado con: {{numero}}</p>
             {% else %}
                 <p style='color: green; background-color: black'>Aprobado con: {{numero}}</p>
             {% endif %}
